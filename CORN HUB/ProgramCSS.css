@@ -1,0 +1,73 @@
+/* BODY */
+body{
+    background-color: rgb(0, 0, 0);
+    margin: 0%;
+    color: white;
+    font-family: Franklin Gothic;
+}
+
+/* TITLE */
+#tit{
+    background-color: rgb(20, 20, 20);
+    padding: 3px;
+    width: 100%;
+    text-align: center;
+}
+#tit1{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 2px;
+}
+#tit2{
+    background-color: rgb(255, 115, 0);
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius:3px;
+    padding: 2px;
+}
+
+/* NAVIGATION PANEL */
+.nav ul{
+    list-style: none;
+    background-color: rgb(20, 20, 20);
+    padding: 0%;
+    margin: 0%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    text-align: center;
+}
+.nav li{
+    float: left;
+}
+.nav li:active{
+    border-bottom: 3px solid rgb(255, 153, 0);
+}
+.nav #active{
+    border-bottom: 3px solid rgb(255, 153, 0);
+    
+}
+
+/* VIDEOS */
+#videos{
+    padding: 25px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.video{
+    color: aliceblue;
+    text-align: center;
+}
+.video p{
+    text-align: left;
+}
+.video a{
+    text-decoration: none;
+    color: white;
+}
